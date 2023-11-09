@@ -12,7 +12,7 @@ const App = () => {
           <li onClick={()=>setSelectedTab('Tab 2')} >Tab 2</li>
           <li onClick={()=>setSelectedTab('Tab 3')} >Tab 3</li>
         </ul>
-        <p>This is the content of {selectedTab}</p>
+        <p>This is the content for {selectedTab}</p>
     </div>
   )
 }
