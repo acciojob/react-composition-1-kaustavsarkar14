@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Tabs = ({ tabs }) => {
-    const[content, setContent] = useState('')
+    const[content, setContent] = useState(tabs[0].content)
     return (
         <div>
             <ul>
